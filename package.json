@@ -1,0 +1,28 @@
+{
+  "name": "webpack3",
+  "version": "1.0.0",
+  "description": "webpack3",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "wonni",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsw8168/webpack3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsw8168/webpack3/issues"
+  },
+  "homepage": "https://github.com/lsw8168/webpack3#readme"
+}

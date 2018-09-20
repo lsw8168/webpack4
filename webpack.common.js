@@ -7,14 +7,15 @@ module.exports = {
         app: './src/index.js'
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['dist/*']),
         new HtmlWebpackPlugin({
             title: 'Production'
         })
     ],
     output: {
-        filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        filename: '[name].[contenthash].js',
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     module: {
         rules: [
